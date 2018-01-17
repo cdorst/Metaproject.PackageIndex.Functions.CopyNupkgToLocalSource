@@ -1,7 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Authors>cdorst</Authors>
+    <Description>Helper for copying a project's .nupkg to the environment's LOCAL_NUGET_SOURCE_PATH</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>CDorst.Metaproject.PackageIndex.Functions.CopyNupkgToLocalSource</PackageId>
+    <Version>1.0.0</Version>
   </PropertyGroup>
 
 </Project>
